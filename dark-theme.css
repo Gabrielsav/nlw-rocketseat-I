@@ -684,7 +684,8 @@ body div button {
   height: 1.5rem;
   border: none;
   transition: 1s;
-
+  position: relative;
+  left: 10rem;
 
 }
 
