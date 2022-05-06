@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 ul {
@@ -683,6 +684,21 @@ body div button {
   height: 1.5rem;
   border: none;
   transition: 1s;
+}
+
+::-webkit-scrollbar {
+  width: 0.187rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--body-color);
+  border-radius: 1px;
+  scrollbar-width: 5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--base-color);
+  border-radius: 30px;
 }
 
 

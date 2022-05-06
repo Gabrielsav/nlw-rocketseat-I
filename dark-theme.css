@@ -687,4 +687,19 @@ body div button {
 
 }
 
+::-webkit-scrollbar {
+  width: 0.187rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--body-color);
+  border-radius: 1px;
+  scrollbar-width: 5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--base-color);
+  border-radius: 30px;
+}
+
 /* medium devices: 767 > */
