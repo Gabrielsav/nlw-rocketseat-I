@@ -125,3 +125,18 @@ btn.addEventListener('click', function () {
     theme.href = 'light-theme.css'
   }
 })
+
+const themetoggle = document.querySelector('.theme-switch')
+const themeSwitch = document.querySelector('#theme-link')
+
+themeSwitch.addEventListener('click', function () {
+  body.classList.toggle('active')
+  if (theme.getAttribute('href') == 'light-theme.css') {
+    // ... then switch it to "dark-theme.css"
+    theme.href = 'dark-theme.css'
+    // Otherwise...
+  } else {
+    // ... switch it to "light-theme.css"
+    theme.href = 'light-theme.css'
+  }
+})

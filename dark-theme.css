@@ -26,7 +26,7 @@ img {
   --hue: 276;
   /* HSL color mode */
   --base-color: hsl(276, 66%, 39%);
-  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-second: hsl(var(--hue) 65% 40%);
   --base-color-alt: hsl(135, 64%, 50%);
   --title-color: hsl(0 0% 98%);
   --text-color: hsl(0 0% 98%);
@@ -363,7 +363,7 @@ nav.show div.icon-close {
 
 .card {
   padding: 3.625rem 2rem;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.28);
   border-bottom: 0.25rem solid var(--base-color);
   border-radius: 0.25rem 0.25rem 0 0;
   text-align: center;
