@@ -155,6 +155,7 @@ body {
 
 }
 
+
 /*====  LOGO ============================ */
 .logo {
   font: 700 1.31rem var(--title-font);
@@ -701,63 +702,92 @@ body div button {
   border-radius: 30px;
 }
 
-.theme-switch {
+#button-3 .knobs:before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 20px;
+  height: 10px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  padding: 9px 4px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
+}
+
+#button-3 .checkbox:active+.knobs:before {
+  width: 46px;
+  border-radius: 100px;
+}
+
+#button-3 .checkbox:checked:active+.knobs:before {
+  margin-left: -26px;
+}
+
+#button-3 .checkbox:checked+.knobs:before {
+  content: '';
+  left: 32px;
+  background-color: #fff;
+}
+
+#button-3 .checkbox:checked~.layer {
+  background-color: #17c2bd;
+}
+
+.knobs,
+.layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.buttond {
+  position: relative;
+  top: 50%;
+  width: 65px;
+  height: 36px;
+  margin: -20px auto 0 auto;
+  overflow: hidden;
+  margin: -5px 20px 2px 20px;
+}
+
+
+
+.buttond.r,
+.buttond.r .layer {
+  border-radius: 100px;
+}
+
+.checkbox {
+  position: relative;
   width: 100%;
   height: 100%;
-  border-radius: 110px;
-  padding: 10px;
-  background: #000;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, .7),
-    -5px -5px 5px rgba(0, 0, 0, .7),
-    inset 5px 10px 5px rgba(0, 0, 0, .7),
-    inset -5px -10px 5px rgba(0, 0, 0, .7);
+  padding: 0;
+  margin: 15px 10px 15px 10px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
 }
 
-.theme-switch::before {
-  content: 'Light';
-  position: absolute;
-  top: -100px;
-  font-size: 42px;
-  font-weight: bold;
+.knobs {
+  z-index: 2;
 }
 
-.slider {
-  background-color: #fff;
-  width: 40%;
-  height: 200px;
-  border-radius: 50%;
-  position: absolute;
-  left: 15px;
-  transition: all .5s ease-in-out;
-  transform: translateX(0);
+.layer {
+  width: 100%;
+  background-color: #d3d3d3;
+  transition: 0.3s ease all;
+  z-index: 1;
 }
 
 
-body.active {
-  background: #000;
-}
-
-body.active .theme-switch {
-  right: 15px;
-  background-color: #fff;
-  box-shadow: 5px 5px 5px rgba(255, 255, 255, .7),
-    -5px -5px 5px rgba(255, 255, 255, .5),
-    inset 5px 10px 5px rgba(255, 255, 255, .7),
-    inset -5px -10px 5px rgba(255, 255, 255, .5);
-}
-
-body.active .theme-switch::before {
-  content: 'Dark';
-  color: #fff;
-  position: absolute;
-  top: -100px;
-  font-size: 42px;
-}
-
-body.active .theme-switch .slider {
-  transform: translateX(130%);
-  background: #000;
-}
 
 
 /* medium devices: 767 > */

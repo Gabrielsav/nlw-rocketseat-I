@@ -1,4 +1,4 @@
-/*  abre e fecha o menu quando clicar no icone: hamburguer e x */
+/*  Abre e fecha o menu quando clicar no icone: hamburguer e x */
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
 
@@ -8,7 +8,7 @@ for (const element of toggle) {
   })
 }
 
-/* quando clicar em um item do menu, esconder o menu */
+/* Quando clicar em um item do menu, esconder o menu */
 const links = document.querySelectorAll('nav ul li a')
 
 for (const link of links) {
@@ -17,7 +17,7 @@ for (const link of links) {
   })
 }
 
-/* mudar o header da página quando der scroll */
+/* Mudar o header da página quando der scroll */
 const header = document.querySelector('#header')
 const navHeight = header.offsetHeight
 
@@ -31,7 +31,7 @@ function changeHeaderWhenScroll() {
   }
 }
 
-/* Testimonials carousel slider swiper */
+/* Depoimentos ccarrossel slider swiper */
 const swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   pagination: {
@@ -102,7 +102,7 @@ function activateMenuAtCurrentSection() {
   }
 }
 
-/* When Scroll */
+/* Quando rolar a pagina */
 window.addEventListener('scroll', function () {
   changeHeaderWhenScroll()
   backToTop()
@@ -110,33 +110,37 @@ window.addEventListener('scroll', function () {
 })
 
 const btn = document.querySelector('.btn-toggle')
-// Select the stylesheet <link>
+// Selecionar o arquivo CSS <link>
 const theme = document.querySelector('#theme-link')
 
-// Listen for a click on the button
+// Aguardar evento no botao
 btn.addEventListener('click', function () {
-  // If the current URL contains "ligh-theme.css"
+  // se o endereco conter "ligh-theme.css"
   if (theme.getAttribute('href') == 'light-theme.css') {
-    // ... then switch it to "dark-theme.css"
+    // ... mudar para "dark-theme.css"
     theme.href = 'dark-theme.css'
     // Otherwise...
   } else {
-    // ... switch it to "light-theme.css"
+    // ... mudar para "light-theme.css"
     theme.href = 'light-theme.css'
   }
 })
 
-const themetoggle = document.querySelector('.theme-switch')
-const themeSwitch = document.querySelector('#theme-link')
+//Tentativa de Mudar de Tema conforme Horario do Dispositivo (Ainda em teste)
 
-themeSwitch.addEventListener('click', function () {
-  body.classList.toggle('active')
-  if (theme.getAttribute('href') == 'light-theme.css') {
-    // ... then switch it to "dark-theme.css"
-    theme.href = 'dark-theme.css'
-    // Otherwise...
-  } else {
-    // ... switch it to "light-theme.css"
-    theme.href = 'light-theme.css'
+var adjustColorMode = function () {
+  // Remove any existing classes
+  document.documentElement.classList.remove('light-theme.css')
+  document.documentElement.classList.remove('dark-theme.css')
+
+  // If it's nighttime, go dark mode
+  if (now > 20) {
+    document.documentElement.classList.add('dark-theme.css')
+    return
   }
-})
+
+  // If it's morning or evening, go transitional
+  if (now > 17 || now < 11) {
+    document.documentElement.classList.add('light-theme.css')
+  }
+}
