@@ -216,6 +216,8 @@ nav .menu {
   visibility: hidden;
   top: -20rem;
   transition: 0.2s;
+  position: relative;
+  margin-right: 6rem;
 }
 
 nav .menu ul {
@@ -736,7 +738,7 @@ body div button {
 }
 
 #button-3 .checkbox:checked~.layer {
-  background-color: #17c2bd;
+  background-color: var(--base-color)
 }
 
 .knobs,

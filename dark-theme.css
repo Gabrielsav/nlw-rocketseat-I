@@ -214,6 +214,8 @@ nav .menu {
   visibility: hidden;
   top: -20rem;
   transition: 0.2s;
+  position: relative;
+  margin-right: 6rem;
 }
 
 nav .menu ul {
