@@ -20,7 +20,6 @@ Quais funcionalidades implementei?
 
 Imagens do Projeto:
 
-<img src=https://user-images.githubusercontent.com/98740091/167711899-3471b158-2133-4fe9-91a3-fc9eea80d935.png" width="100" height="100">
-<img src=https://user-images.githubusercontent.com/98740091/167711957-dbb1fe13-7626-4057-8701-9ca9667ac6e7.png" width="100" height="100">
-<img src=https://user-images.githubusercontent.com/98740091/167713096-049c7fb7-663e-43e7-9ef2-0ba9729c9661.png" width="100" height="100">
-<img src=https://user-images.githubusercontent.com/98740091/167713131-92f9f418-3985-4e4b-876f-b38bb0135b76.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/98740091/167717498-e956f3a6-34d2-4847-bb8c-4337387f6edf.png" width="100%" height="100%"><img src="https://user-images.githubusercontent.com/98740091/167717654-af8cd1b1-f7d1-4e79-94e3-3a23828347e1.png" width="100%" height="100%"><img src="https://user-images.githubusercontent.com/98740091/167716888-523b4173-2ccc-4200-b44e-a5338cadf53d.png" width="20%" height="20%"><img src="https://user-images.githubusercontent.com/98740091/167717200-7d1089a9-8438-4aa8-a190-61a884e7e8c8.png" width="20%" height="20%">
+
+
