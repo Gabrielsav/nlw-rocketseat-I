@@ -16,8 +16,7 @@ Quais funcionalidades implementei?
 - Foi bem trabalhoso (estudar no caso) para implementar o 'switch' e entender a lógica no JS para mudar o tema, mas valeu muito estudar e chegar neste resultado.
 - Integrei a API do Google Analytics para entender sobre Tráfego e ter uma ferramenta de Ánalise do site.
 - Graças a Rocketseat responsividade não é um problema <3
-### Página hospedada no Github-pages, confere lá: 
-<https://gabrielsav.github.io/nlw-rocketseat-VI>
+### Página hospedada no Github -> [Acaidemarte](https://gabrielsav.github.io/nlw-rocketseat-VI>)
 
 Imagens do Projeto:
 
