@@ -1,22 +1,21 @@
 # Website inspirado na nlw-rocketseat-VI 
-(Créditos ao @Mayk Brito da Rocketseat - O cara é fera)
+(Créditos ao @Mayk Brito da Rocketseat)
 
 ### Primeiro projeto sobre branding de uma empresa utilizando HTML, CSS e Javascript.
 
 O que aprendi nesse projeto? 
 
 - Basicamente aprendi o básico de HTML, CSS e Javascript.
-- Design inspirado na Nextlevelweek-VI da Rocketseat.
 
 Quais funcionalidades implementei?
 
-- Reestruturei todo o Design-System no FIGMA.
-- Toda a parte da estrutura do Negócio, a idéia e o Escopo foi criada por mim e talvez um dia venha se tornar uma empresa.
-- Queria já iniciar com temas (Por isto a opção dark-light theme) -> Um adendo (Iniciante em CSS, sei que deve existir alternativas extremamente mais fáceis do que criar dois arquivos CSS!)
-- Foi bem trabalhoso (estudar no caso) para implementar o 'switch' e entender a lógica no JS para mudar o tema, mas valeu muito estudar e chegar neste resultado.
-- Integrei a API do Google Analytics para entender sobre Tráfego e ter uma ferramenta de Ánalise do site.
+- Toda a parte da estrutura do negócio, a idéia e o escopo.
+- Queria já iniciar com temas (Por isto a opção dark-light theme) -> Um adendo (Iniciante em CSS, sei que deve existir alternativas extremamente mais fáceis do que criar dois arquivos CSS)
+- Foi bem trabalhoso estudar a NLW pois queria saber mais e mais sobre funcionalidades das tecnologias apresentadas e corria em uma busca pela vasta internet para entender mais.
+- E entendendo pouco mais sobre, decidi implementar o 'switch' e entender a lógica no JS para mudar o tema, valeu muito o esforco gasto por encontrar tanto conteudo na internet e chegar neste resultado.
+- Tambem integrei a API do Google Analytics para entender sobre Tráfego e conhecer uma ferramenta de analise de dados.
 - Graças a Rocketseat responsividade não é um problema <3
-### Página hospedada no Github -> [Acaidemarte](https://gabrielsav.github.io/nlw-rocketseat-VI>)
+
 
 Imagens do Projeto:
 
